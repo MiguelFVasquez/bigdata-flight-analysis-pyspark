@@ -14,7 +14,7 @@ def main():
     DATA_PATH = "data/raw/flight_sample_2022-09-13.csv"
     
     # Empezar con muestras más pequeñas para pruebas
-    SAMPLE_SIZES = [5000, 10000, "full"]  # Reducido para pruebas iniciales
+    SAMPLE_SIZES = [1000, 5000, 10000, "full"]  # Reducido para pruebas iniciales
     
     results = []
     
