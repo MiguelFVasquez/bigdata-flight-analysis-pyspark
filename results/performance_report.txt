@@ -1,0 +1,52 @@
+============================================================
+REPORTE DE PERFORMANCE: PANDAS vs PYSPARK
+============================================================
+
+Métrica: top_airports
+  Pandas:   0.0194 segundos
+  PySpark:  1.2414 segundos
+  Speedup:  0.02x
+  → Pandas es 63.87x más rápido
+
+Métrica: top_airlines
+  Pandas:   0.0371 segundos
+  PySpark:  0.6188 segundos
+  Speedup:  0.06x
+  → Pandas es 16.69x más rápido
+
+Métrica: aircraft_models_analysis
+  Pandas:   0.0267 segundos
+  PySpark:  1.1841 segundos
+  Speedup:  0.02x
+  → Pandas es 44.29x más rápido
+
+Métrica: popular_routes
+  Pandas:   0.0344 segundos
+  PySpark:  1.2763 segundos
+  Speedup:  0.03x
+  → Pandas es 37.15x más rápido
+
+Métrica: flight_duration_analysis
+  Pandas:   0.0090 segundos
+  PySpark:  0.8999 segundos
+  Speedup:  0.01x
+  → Pandas es 99.52x más rápido
+
+Métrica: airline_fleet_diversity
+  Pandas:   0.0835 segundos
+  PySpark:  1.7504 segundos
+  Speedup:  0.05x
+  → Pandas es 20.97x más rápido
+
+Métrica: airport_connectivity
+  Pandas:   0.0194 segundos
+  PySpark:  1.1764 segundos
+  Speedup:  0.02x
+  → Pandas es 60.75x más rápido
+
+============================================================
+RESUMEN EJECUTIVO
+============================================================
+Speedup promedio: 0.03x
+CONCLUSIÓN: Pandas muestra mejor performance general
+============================================================
