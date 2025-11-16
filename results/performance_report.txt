@@ -3,50 +3,50 @@ REPORTE DE PERFORMANCE: PANDAS vs PYSPARK
 ============================================================
 
 Métrica: top_airports
-  Pandas:   0.0194 segundos
-  PySpark:  1.2414 segundos
+  Pandas:   0.0130 segundos
+  PySpark:  0.8052 segundos
   Speedup:  0.02x
-  → Pandas es 63.87x más rápido
+  → Pandas es 62.12x más rápido
 
 Métrica: top_airlines
-  Pandas:   0.0371 segundos
-  PySpark:  0.6188 segundos
+  Pandas:   0.0243 segundos
+  PySpark:  0.4317 segundos
   Speedup:  0.06x
-  → Pandas es 16.69x más rápido
+  → Pandas es 17.74x más rápido
 
 Métrica: aircraft_models_analysis
-  Pandas:   0.0267 segundos
-  PySpark:  1.1841 segundos
+  Pandas:   0.0166 segundos
+  PySpark:  0.8408 segundos
   Speedup:  0.02x
-  → Pandas es 44.29x más rápido
+  → Pandas es 50.58x más rápido
 
 Métrica: popular_routes
-  Pandas:   0.0344 segundos
-  PySpark:  1.2763 segundos
-  Speedup:  0.03x
-  → Pandas es 37.15x más rápido
+  Pandas:   0.0233 segundos
+  PySpark:  0.4989 segundos
+  Speedup:  0.05x
+  → Pandas es 21.41x más rápido
 
 Métrica: flight_duration_analysis
-  Pandas:   0.0090 segundos
-  PySpark:  0.8999 segundos
-  Speedup:  0.01x
-  → Pandas es 99.52x más rápido
+  Pandas:   0.0072 segundos
+  PySpark:  0.3367 segundos
+  Speedup:  0.02x
+  → Pandas es 46.65x más rápido
 
 Métrica: airline_fleet_diversity
-  Pandas:   0.0835 segundos
-  PySpark:  1.7504 segundos
-  Speedup:  0.05x
-  → Pandas es 20.97x más rápido
+  Pandas:   0.0615 segundos
+  PySpark:  0.6250 segundos
+  Speedup:  0.10x
+  → Pandas es 10.16x más rápido
 
 Métrica: airport_connectivity
-  Pandas:   0.0194 segundos
-  PySpark:  1.1764 segundos
-  Speedup:  0.02x
-  → Pandas es 60.75x más rápido
+  Pandas:   0.0154 segundos
+  PySpark:  0.4158 segundos
+  Speedup:  0.04x
+  → Pandas es 26.99x más rápido
 
 ============================================================
 RESUMEN EJECUTIVO
 ============================================================
-Speedup promedio: 0.03x
+Speedup promedio: 0.04x
 CONCLUSIÓN: Pandas muestra mejor performance general
 ============================================================
