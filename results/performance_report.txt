@@ -3,50 +3,50 @@ REPORTE DE PERFORMANCE: PANDAS vs PYSPARK
 ============================================================
 
 Métrica: top_airports
-  Pandas:   0.0688 segundos
-  PySpark:  2.1287 segundos
-  Speedup:  0.03x
-  → Pandas es 30.95x más rápido
+  Pandas:   0.1738 segundos
+  PySpark:  3.3172 segundos
+  Speedup:  0.05x
+  → Pandas es 19.08x más rápido
 
 Métrica: top_airlines
-  Pandas:   0.1616 segundos
-  PySpark:  1.1122 segundos
-  Speedup:  0.15x
-  → Pandas es 6.88x más rápido
+  Pandas:   0.3563 segundos
+  PySpark:  1.6241 segundos
+  Speedup:  0.22x
+  → Pandas es 4.56x más rápido
 
 Métrica: aircraft_models_analysis
-  Pandas:   0.0846 segundos
-  PySpark:  2.1242 segundos
-  Speedup:  0.04x
-  → Pandas es 25.10x más rápido
+  Pandas:   0.2307 segundos
+  PySpark:  3.4035 segundos
+  Speedup:  0.07x
+  → Pandas es 14.75x más rápido
 
 Métrica: popular_routes
-  Pandas:   0.1107 segundos
-  PySpark:  1.1429 segundos
-  Speedup:  0.10x
-  → Pandas es 10.33x más rápido
+  Pandas:   0.2115 segundos
+  PySpark:  1.9961 segundos
+  Speedup:  0.11x
+  → Pandas es 9.44x más rápido
 
 Métrica: flight_duration_analysis
-  Pandas:   0.0324 segundos
-  PySpark:  0.7679 segundos
-  Speedup:  0.04x
-  → Pandas es 23.68x más rápido
+  Pandas:   0.0783 segundos
+  PySpark:  1.4002 segundos
+  Speedup:  0.06x
+  → Pandas es 17.88x más rápido
 
 Métrica: airline_fleet_diversity
-  Pandas:   0.2858 segundos
-  PySpark:  1.3573 segundos
-  Speedup:  0.21x
-  → Pandas es 4.75x más rápido
+  Pandas:   0.5908 segundos
+  PySpark:  2.3480 segundos
+  Speedup:  0.25x
+  → Pandas es 3.97x más rápido
 
 Métrica: airport_connectivity
-  Pandas:   0.0942 segundos
-  PySpark:  1.0544 segundos
-  Speedup:  0.09x
-  → Pandas es 11.19x más rápido
+  Pandas:   0.1676 segundos
+  PySpark:  1.5988 segundos
+  Speedup:  0.10x
+  → Pandas es 9.54x más rápido
 
 ============================================================
 RESUMEN EJECUTIVO
 ============================================================
-Speedup promedio: 0.09x
+Speedup promedio: 0.12x
 CONCLUSIÓN: Pandas muestra mejor performance general
 ============================================================
